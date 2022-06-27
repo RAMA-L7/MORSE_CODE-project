@@ -1,4 +1,4 @@
-value=input('enter the value: ')
+value=input('enter your message: ')
 #FOR ENCODING
 morse_code = {' ':'_','A':'.-','B':'-...','C':'-.-.','D':'-..','E':'.',
               'F':'..-.','G':'--.','H':'....','I':'..','J':'.---','K':'-.-','L':'.-..',
@@ -20,4 +20,4 @@ elif option==2:
     for element in range(0,len(code)):
         print(alpha_code.get(code[element]),end='')
 else:
-    print('choose correct option')
+    print('sorry...choose correct option')
